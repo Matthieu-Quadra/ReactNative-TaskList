@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myfirstapp",
-    "slug": "myfirstapp",
+    "name": "TaskList",
+    "slug": "TaskList",
     "platforms": [
       "ios",
       "android",
@@ -9,7 +9,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./TaskList.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.packcompany.tasklist"
+    },
+    "android": {
+      "package": "com.packcompany.tasklist",
+      "versionCode": 1
     }
   }
 }
